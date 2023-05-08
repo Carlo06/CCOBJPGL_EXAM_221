@@ -2,7 +2,6 @@ import Locations.*;
 import Tourists.*;
 
 
-
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -13,14 +12,14 @@ public class App {
         Locations Siargao = new Siargao();
         Locations Vigan = new Vigan();
 
-        Tourist Carlo = new Carlo();
+        Tourist Me = new Me();
 
-        Boracay.accept(Carlo);
-        Bohol.accept(Carlo);
-        Cebu.accept(Carlo);
-        Palawan.accept(Carlo);
-        Siargao.accept(Carlo);
-        Vigan.accept(Carlo);
+        Boracay.accept(Me);
+        Bohol.accept(Me);
+        Cebu.accept(Me);
+        Palawan.accept(Me);
+        Siargao.accept(Me);
+        Vigan.accept(Me);
 
 
 
