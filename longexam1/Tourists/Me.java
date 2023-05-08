@@ -3,7 +3,7 @@ package Tourists;
 
 import Locations.*;
 
-public class Carlo implements Tourist {
+public class Me implements Tourist {
 
     static int budget = 1000;
     
